@@ -10,7 +10,7 @@ const createCoupon = asyncHandler(async (req, res) => {
   });
   return res.json({
     success: response ? true : false,
-    createCoupon: response ? response : "Cannot create Coupon",
+    createCoupon: response ? response : "Cannot create Coupon ssss",
   });
 });
 
